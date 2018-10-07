@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker stop semantix
+docker stop nasa_web_logs

@@ -1,22 +1,24 @@
-# Resolução do Desafio Semantix para Engenheiro de Dados
+# NASA Web Log Analysis
 
-# Organização do Repositório
+## Resolução do Desafio Semantix para Engenheiro de Dados
+
+## Organização do Repositório
 
 Esse repositório está organizado em dois sub-diretorios, são eles:
 
 - **questionario**: onde estão as respostas para as questões apresentadas, organizadas dentro do arquivo Readme.md.
 - **notebooks**: onde está o jupyter notebook, **NASA_web_log_analysis.ipynb**, com o desenvolvimento lógico e as respostas das análises apresentadas.
 
-# Clonando o repositório.
+## Clonando o repositório.
 
     git clone https://github.com/pedrovog/nasa-web-log-analysis.git
 
-# Dependências.
+## Dependências.
 
 - Docker
 - Make
 
-# Executando o container.
+## Executando o container.
 
 Por motivos de compatibilidade realizei o desenvolvimento do desafio usando o Docker e a imagem **jupyter/all-spark-notebook**, que contem um ambiente com pyspark e jupyter notebook.
 Para executar a imagem, dentro da pasta do código, entrar com o seguinte comando:
@@ -29,7 +31,7 @@ Quando o container estiver apto a receber conexões a seguinte linha irá aparec
 
 Ou o log do container pode ser consultado:
 
-    docker logs semantix
+    docker logs nasa_web_logs
 
 Procurar pela linha:
 
@@ -42,3 +44,8 @@ Feito isso:
 - Navegar para a pasta **work**.
 - Clicar em **NASA_web_log_analysis.ipynb**, o notebook deverá ser aberto.
 
+## Parando o container.
+
+Para executar a imagem, dentro da pasta do código, entrar com o seguinte comando:
+
+    make stop

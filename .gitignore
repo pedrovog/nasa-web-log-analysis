@@ -1,1 +1,4 @@
 notebooks/data/*
+notebooks/spark-warehouse
+notebooks/.ipynb_checkpoints
+.idea/

@@ -21,7 +21,7 @@ Esse repositório está organizado em dois sub-diretorios, são eles:
 ## Executando o container.
 
 Por motivos de compatibilidade realizei o desenvolvimento do desafio usando o Docker e a imagem **jupyter/all-spark-notebook**, que contem um ambiente com pyspark e jupyter notebook.
-Para executar a imagem, dentro da pasta do código, entrar com o seguinte comando:
+Para executar o container docker, dentro da pasta do código, entrar com o seguinte comando:
 
     make run
 
@@ -46,6 +46,6 @@ Feito isso:
 
 ## Parando o container.
 
-Para executar a imagem, dentro da pasta do código, entrar com o seguinte comando:
+Para parar e remover o container docker, dentro da pasta do código, entrar com o seguinte comando:
 
     make stop
